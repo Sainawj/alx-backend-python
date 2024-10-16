@@ -8,6 +8,7 @@ from importlib import import_module as using
 # Import the async_generator function from the previous module
 async_generator = using('0-async_generator').async_generator
 
+
 async def async_comprehension() -> List[float]:
     '''Asynchronously collects 10 random numbers from the async generator.
 
