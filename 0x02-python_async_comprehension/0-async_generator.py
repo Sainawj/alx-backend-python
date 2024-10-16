@@ -11,7 +11,8 @@ from typing import Generator
 async def async_generator() -> Generator[float, None, None]:
     '''Asynchronously generates a sequence of 10 random floating-point numbers.
 
-    The function waits for 1 second between generating each number, and yields a random 
+    The function waits for 1 second between generating each number
+    and yields a random
     float between 0 and 10.
 
     Returns:
