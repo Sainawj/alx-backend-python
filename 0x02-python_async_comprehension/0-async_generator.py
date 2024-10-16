@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-'''This module defines an asynchronous generator that produces a sequence of random numbers.
+'''
+This module defines an asynchronous generator that produces
+sequence of random numbers.
 '''
 import asyncio
 import random
